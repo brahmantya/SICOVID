@@ -1,12 +1,12 @@
 {
-  "type": "YOUR-TYPE",
-  "project_id": "YOUR-PROJECT-ID",
-  "private_key_id": "YOUR-PRIVATE-KEY-ID",
-  "private_key": "YOUR-PRIVATE-KEY",
-  "client_email": "YOUR-CLIENT-EMAIL",
-  "client_id": "YOUR-CLIENT-ID",
-  "auth_uri": "YOUR-AUTH-URI",
-  "token_uri": "YOUR-TOKEN-URI",
-  "auth_provider_x509_cert_url": "YOUR-AUTH-PROVIDER",
-  "client_x509_cert_url": "YOUR-CERT-URL"
+  "type": "service_account",
+  "project_id": "sivirus-vaxy",
+  "private_key_id": "e81514a086a5d635ef6cddad16d73323a80199c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUAvQjmBmNMVrb\neNe4Kx7eNtggWUmq6E1L0y2MOp1E/2RnQE7jWwfgUiGR2nL/7/dzibLMrtqWChuM\nHpDz7RyXsf9JMnbi6mHpi7boef0l6uNcqcVzFF0WLAJvx3uNpMIdq0yfIgfWvR5H\nbkXg0+havHhuws7EiEP8xr+TsANuDK97vgU/QkaOTgb+kMNk/rvyxa7nyGcuAjhP\nwuLIgPgdUqXzWEDP86Dm2B9IZbBAkMN7imlvrs3NfYNzIA1RApepBseJj9sJVQVJ\n7EVr8LmFih90yGbi5PugL4dPQyylPQGEFSEakUTHoj4R02AcxFOWZPVviFs6QRxC\nAk95TZW/AgMBAAECggEAE3nr/KMZ4c8hZh0NUCVh8g7+vsYFDvbFNwyA2CuATBjc\nG+Ib/SXdLN3OqKv1OY7NYCdLriL4AKWQD0i1jzr+j+7xoUNKCaF3ejF0DZo7R7Ly\nzQ3pjh9WR9WmKaedMY9rp7cXVF0XdEIuWGiIcdV1uHQs6hvqS8Kq4DtP2Rzny8Gi\nvHa1yHKzfC3p4kScq6oA0sINq9m4NewxlgI37H1ACWJgV1gJvY/irGFBp4jFr/p3\nTZgBV9aata4HQ3rkbc5NtJFUEtaYUrRw99SIDtdpvsiwqWzm0787c/Cv23ADtVf2\nCfcMcjL/s2Dg1/EJ5hVm7TQ+ol3irpw5PnWnkFD6yQKBgQDypN1VHVSWKQBcAGNa\nZ1oNA2UwLIHcSVm8kPAviII8NA8zTD7jSLOwiEfjCYUlydwFUSqwQDsGn06o7O/U\nGfP6ib753eZMHLzrPaGVcDxZM0E/n1xLbUSGBhqeSaDhv8U3DfdHopULHA2TJoIn\nrLYYhtSweZ3+weCzCqk1xDVgFwKBgQDfrnEvu4QyQtgX96v6Rk4RXGgxxZzmoIWN\nO/45RMADjdMui504d3gOoiIEuLmqug2qElYS3p8QEjyBYLL7ClYBtkXBoUI5dvgA\nWoKF1CPB4NyTHsTcI4lnf6uCIt90ECb2c/G8wZeU11/YvmCOY7YrIcxGIA2m4gD0\n6ZSsAOMYmQKBgEkKd9X3Tk8laIZJV58PHXxtWTh3LWAydGDfAG5OmWWmBi1a9lNU\nv0KUw48EfqAxc5nmJQOJUjtcGUGgkVE3vsncTTDKK1keDYCCvPFPJ9tyImIUhqPt\n8IKns7uSTmumXqeD/LwDpPoDJ9Lz9Joc03Puone9JGJb2lgLDYSx259hAoGALH76\nGyG1SX5MmG/3cSD9NKzqOURzUtmJ16+ggenwPITBBthVHT9+zYJpPAE3RgQe5b8i\nCjzo7XyDNsVytUe4Fj0ZIUyf7OiCqydWIaMyvcWqe0W6qYQUOFeIWanwQ5lW9t3X\nr9HfAofZlDdC4/Bn86qUhTqpHJKG2DGDFrhSdLkCgYAx+TApDgohqhZZhIbXdHrr\nDGRyEFC0eZ/BAfuK3wHByM4Fq0MIT4IztUqtikCMScXsLc19mNZySesRsJ2CFZ4I\nZT3s/CWb9xxLOy+JlYVXdHqoK1vwdfzs5L9cjiTQ+xkFodU5j7Hz7oGi+4KV1CVO\nEHGTonf/6rhz12728w7+uQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "si-virus@sivirus-vaxy.iam.gserviceaccount.com",
+  "client_id": "116020001827352873458",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/si-virus%40sivirus-vaxy.iam.gserviceaccount.com"
 }

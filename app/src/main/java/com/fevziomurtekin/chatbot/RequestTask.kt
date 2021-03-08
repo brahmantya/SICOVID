@@ -1,18 +1,18 @@
 package com.fevziomurtekin.chatbot
 
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.AsyncTask
 import com.google.cloud.dialogflow.v2.*
 
 class RequestTask : AsyncTask<Void, Void, DetectIntentResponse> {
 
-    var activity: Activity? = null
+    var activity: AppCompatActivity? = null
     private var session: SessionName? = null
     private var sessionsClient: SessionsClient? = null
     private var queryInput: QueryInput? = null
 
 
-    constructor(activity: Activity,session:SessionName,sessionsClient: SessionsClient,queryInput: QueryInput){
+    constructor(activity: AppCompatActivity, session:SessionName, sessionsClient: SessionsClient, queryInput: QueryInput){
         this.activity=activity
         this.session=session
         this.queryInput=queryInput

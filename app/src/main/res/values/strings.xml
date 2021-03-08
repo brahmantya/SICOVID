@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">Sesli Asistan</string>
-    <string name="edit_hint">Bir şey yazın..</string>
-    <string name="speech_prompt">Bir şey söyleyin..</string>
-    <string name="speech_not_supported">Telefonunuz mikrofon özelliğini desteklememektedir.</string>
-    <string name="anlasilmadi">Dediğinizi anlayamadım. Lütfen tekrar söyleyin.</string>
-    <string name="mesajgiriniz">Lütfen mesaj giriniz.</string>
+    <string name="app_name">SI COVID</string>
+    <string name="edit_hint">Ketik pesan...</string>
+    <string name="speech_prompt">Katakan sesuatu ..</string>
+    <string name="speech_not_supported">Ponsel Anda tidak mendukung fitur mikrofon.</string>
+    <string name="anlasilmadi">Saya tidak mengerti apa yang Anda katakan. Tolong ulangi lagi.</string>
+    <string name="mesajgiriniz">Silakan masukkan pesan.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">John Doe</string>
+    <string name="nav_header_subtitle">johnDoe@gmail.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_reference">reference</string>
+
 </resources>
