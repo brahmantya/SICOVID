@@ -2,6 +2,7 @@
 
     import android.content.ActivityNotFoundException
     import android.content.Intent
+    import android.content.res.Configuration
     import android.os.Bundle
     import android.speech.RecognizerIntent
     import android.speech.tts.TextToSpeech
@@ -16,6 +17,9 @@
     import androidx.appcompat.widget.Toolbar
     import androidx.core.view.GravityCompat
     import androidx.drawerlayout.widget.DrawerLayout
+    import com.fevziomurtekin.chatbot.databinding.ActivityMainBinding
+    import com.fevziomurtekin.chatbot.databinding.AppBarMainBinding
+    import com.fevziomurtekin.chatbot.ui.reference.ReferenceFragment
     import com.google.android.material.navigation.NavigationView
     import com.google.api.gax.core.FixedCredentialsProvider
     import com.google.auth.oauth2.GoogleCredentials
@@ -39,29 +43,27 @@
 
         private var asistan_voice: TextToSpeech? = null
 
+        lateinit var appBarMainBinding: AppBarMainBinding
+        lateinit var mainActivityMainBinding: ActivityMainBinding
         lateinit var toolbar: Toolbar
         lateinit var drawerLayout: DrawerLayout
         lateinit var navView: NavigationView
+        lateinit var toggle : ActionBarDrawerToggle
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_main)
-
-            toolbar = findViewById(R.id.toolbar)
-            setSupportActionBar(toolbar)
-
-            drawerLayout = findViewById(R.id.drawer_layout)
-            navView = findViewById(R.id.nav_view)
-
-            val toggle = ActionBarDrawerToggle (
-                this, drawerLayout, toolbar, 0, 0
+            mainActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(mainActivityMainBinding.root)
+            drawerLayout = mainActivityMainBinding.drawerLayout
+            toggle = ActionBarDrawerToggle (
+                this, drawerLayout,0, 0
             )
-
+            navView = mainActivityMainBinding.navView
             drawerLayout.addDrawerListener(toggle)
+            supportActionBar?.setDisplayHomeAsUpEnabled(true)
+            supportActionBar?.setHomeButtonEnabled(true)
             toggle.syncState()
-            navView.setNavigationItemSelectedListener (this)
-
-
+//            navView.setNavigationItemSelectedListener (this)
 
             val scrollview = findViewById<ScrollView>(R.id.scroll_chat)
             scrollview.post {
@@ -91,6 +93,23 @@
 
             initAsisstantVoice()
 
+        }
+
+        override fun onPostCreate(savedInstanceState: Bundle?) {
+            super.onPostCreate(savedInstanceState)
+            toggle.syncState()
+        }
+
+        override fun onConfigurationChanged(newConfig: Configuration) {
+            super.onConfigurationChanged(newConfig)
+            toggle.onConfigurationChanged(newConfig)
+        }
+
+        override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+            if (toggle.onOptionsItemSelected(item)) {
+                return true
+            }
+            return super.onOptionsItemSelected(item)
         }
 
 

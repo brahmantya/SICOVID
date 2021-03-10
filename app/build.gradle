@@ -1,11 +1,11 @@
-apply plugin: 'com.android.application'
-
-apply plugin: 'kotlin-android'
-
-apply plugin: 'kotlin-android-extensions'
-
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
 android {
     compileSdkVersion 28
+    buildToolsVersion "30.0.2"
     defaultConfig {
         applicationId "com.fevziomurtekin.chatbot"
         minSdkVersion 14
@@ -34,7 +34,10 @@ android {
         exclude 'META-INF/LGPL2.1'
         exclude 'META-INF/INDEX.LIST'
     }
-
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
 
 }
 
@@ -50,6 +53,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    implementation 'com.android.support:multidex:1.0.3'
 
 
     // DialogFlow SDK depencies
@@ -60,7 +64,4 @@ dependencies {
     implementation 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
     implementation 'io.grpc:grpc-okhttp:1.15.1'
     implementation 'com.google.android.material:material:1.0.0'
-
-
-
 }
