@@ -7,13 +7,6 @@
         android:id="@+id/drawer_layout"
         tools:openDrawer="start">
 
-    <com.google.android.material.navigation.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            app:headerLayout="@layout/nav_header_main"
-            app:menu="@menu/activity_main_drawer" />
     <RelativeLayout
             android:id="@+id/relative_input"
             android:layout_width="match_parent"
@@ -87,5 +80,14 @@
 
 
     </ScrollView>
+
+
+    <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/activity_main_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

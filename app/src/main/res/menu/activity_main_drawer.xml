@@ -5,7 +5,7 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_home"
+                android:id="@+id/nav_home1"
                 android:title="Reference" />
         <item
                 android:id="@+id/nav_photos"

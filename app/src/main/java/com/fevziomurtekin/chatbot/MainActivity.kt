@@ -63,7 +63,7 @@
             supportActionBar?.setDisplayHomeAsUpEnabled(true)
             supportActionBar?.setHomeButtonEnabled(true)
             toggle.syncState()
-//            navView.setNavigationItemSelectedListener (this)
+            navView.setNavigationItemSelectedListener (this)
 
             val scrollview = findViewById<ScrollView>(R.id.scroll_chat)
             scrollview.post {
@@ -116,9 +116,9 @@
         override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
             when (item.itemId) {
-                R.id.nav_home -> {
+                R.id.nav_home1 -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.relativelayout, ReferenceFragment()).commit()
+                        .replace(R.id.relative_input ,ReferenceFragment()).commit()
                 }
 
                 R.id.nav_photos -> {
