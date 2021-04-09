@@ -12,5 +12,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
     <string name="menu_reference">reference</string>
-
+    <string name="reference1">Detik Health Pertanyaan Tentang COVID dan Jawabannya \n<a href="https://health.detik.com/berita-detikhealth/d-5078638/7-pertanyaan-tentang-covid-19-dan-jawabannya">https://health.detik.com/berita-detikhealth/d-5078638/7-pertanyaan-tentang-covid-19-dan-jawabannya</a></string>
+    <string name="reference2">Pertanyaan dan Jawaban Terkait COVID \n <a href="https://www.who.int/indonesia/news/novel-coronavirus/qa/qa-for-public">https://www.who.int/indonesia/news/novel-coronavirus/qa/qa-for-public</a></string>
+    <string name="reference3">26 Pertanyaan tentang Corona Covid-19 yang Paling Sering Muncul \n <a href="https://www.liputan6.com/bola/read/4210452/26-pertanyaan-tentang-corona-covid-19-yang-paling-sering-muncul-bagian-pertama">https://www.liputan6.com/bola/read/4210452/26-pertanyaan-tentang-corona-covid-19-yang-paling-sering-muncul-bagian-pertama</a></string>
+    <string name="reference4">4 Alasan Mengapa Virus Corona Bisa Sangat Mematikan \n <a href="https://health.detik.com/berita-detikhealth/d-5226556/4-alasan-mengapa-virus-corona-bisa-sangat-mematikan/2">https://health.detik.com/berita-detikhealth/d-5226556/4-alasan-mengapa-virus-corona-bisa-sangat-mematikan/2</a></string>
+    <string name="reference5">Virus Corona Bermutasi? Ini 5 Hal yang Perlu Diketahui \n <a href="https://health.detik.com/berita-detikhealth/d-5053973/virus-corona-bermutasi-ini-5-hal-yang-perlu-diketahui">https://health.detik.com/berita-detikhealth/d-5053973/virus-corona-bermutasi-ini-5-hal-yang-perlu-diketahui</a></string>
+    <string name="aboutapp">SI COVID adalah chatbot yang membahas mengenai covid-19 dari gambaran umum hingga informasi yang lebih detail.</string>
+    <string name="aboutcreator"> Aplikasi ini dibuat oleh Brahmantya Adi S (18082010021) dan Fatihaeny Nabilah K I (18082010033) mahasiswa UPN VETERAN JATIM, Fakultas Ilmu Komputer, Jurusan Sistem Informasi.</string>
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.fevziomurtekin.chatbot">
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.fevziomurtekin.chatbot">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +11,11 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_app_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.aboutcreator.AboutCreatorActivity"></activity>
+        <activity android:name=".ui.aboutapp.AboutAppActivity" />
+        <activity android:name=".ui.reference.ReferenceActivity" />
         <activity
                 android:name=".MainActivity"
                 android:screenOrientation="portrait"
@@ -20,9 +25,9 @@
                 android:screenOrientation="portrait"
                 android:theme="@style/SplashTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

@@ -19,6 +19,9 @@
     import androidx.drawerlayout.widget.DrawerLayout
     import com.fevziomurtekin.chatbot.databinding.ActivityMainBinding
     import com.fevziomurtekin.chatbot.databinding.AppBarMainBinding
+    import com.fevziomurtekin.chatbot.ui.aboutapp.AboutAppActivity
+    import com.fevziomurtekin.chatbot.ui.aboutcreator.AboutCreatorActivity
+    import com.fevziomurtekin.chatbot.ui.reference.ReferenceActivity
     import com.fevziomurtekin.chatbot.ui.reference.ReferenceFragment
     import com.google.android.material.navigation.NavigationView
     import com.google.api.gax.core.FixedCredentialsProvider
@@ -117,16 +120,18 @@
 
             when (item.itemId) {
                 R.id.nav_home1 -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.relative_input ,ReferenceFragment()).commit()
+                    val intentReference = Intent(this, ReferenceActivity::class.java)
+                    startActivity(intentReference)
                 }
 
                 R.id.nav_photos -> {
-                    Toast.makeText(this, "photos", Toast.LENGTH_SHORT).show()
+                   val intentAboutApp = Intent(this, AboutAppActivity::class.java)
+                    startActivity(intentAboutApp)
                 }
 
                 R.id.nav_movies -> {
-                    Toast.makeText(this, "movies", Toast.LENGTH_SHORT).show()
+                    val intentAboutCreator = Intent(this, AboutCreatorActivity::class.java)
+                    startActivity(intentAboutCreator)
                 }
             }
             drawerLayout.closeDrawer(GravityCompat.START)
