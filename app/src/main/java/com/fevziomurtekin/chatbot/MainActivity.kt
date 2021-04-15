@@ -155,7 +155,7 @@
 
         private fun initAsisstant() {
             try {
-                val stream = resources.openRawResource(R.raw.asistan)
+                val stream = resources.openRawResource(R.raw.sivirus)
                 val credentials = GoogleCredentials.fromStream(stream)
                 val projectId = (credentials as ServiceAccountCredentials).projectId
 
@@ -173,7 +173,6 @@
             }
 
         }
-
 
         private fun sendMessage(view: View) {
             val msg = edittext.text.toString()

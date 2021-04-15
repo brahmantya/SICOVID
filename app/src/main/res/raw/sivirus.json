@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sivirus-vaxy",
+  "private_key_id": "6f3cb866fa58064156e92d81cdc24373f9692aa2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6fWI5ty3V3Yb6\nawlss+1vU6PuMxEY6q2Zmi8xq9ds5hcZglHoeuomxzwEjwJX9ZEnzD/MIw0mvlCz\nQmyF7hr5T/N+Id07SSRl9y1AC79+iSwdophTPxlkaOsKAF7ST543QFM7nlVXROqY\ndcKBLNhb4vuuNDiE+HOsY9LLDekKplaajJzGzWpNRXzdSHbR0d6VGN3nhkZumeKr\ni32Ys8zita1lOcNSpPIaYNyVi6HN6YvEuu5/xvKiv8ox1gL62GB+jI3Yc9eIU7XD\nmpmDzZ2Gyr+j9G8cvfG0+qSlIKdYdahY224tEAtqwK1ZM9l0ZTDdpAsV9r+f979r\nMFIew8GFAgMBAAECggEAWYDCyztwmqOC3B3R/KNQMa19UF2e94vuPHmk69xy/Fdj\nv8DtibuwNGNLmU5/i/KWM3kSJ2mtLqqJdbdL+W1g8cXe8WrUUFdWyj86rvHUeqjg\nDOsT22Q9zhSStY6e86X1o8PSDpt7jvJK+1gNPUzmHBeQvjde5uaNMbAJI54t+gcw\nbfOdYmDUc+evDnqMATjXJFU0F2kbYv8CwBVQFRgN1TgstnM3tOOzDtn8SQf8/N2k\nIKHhdoKaRQfb2KqLJKo3+MvglcTe8RoYfvLZQZP645ezotbrgeosXcbGnSoYIrBG\nEWHAbDZ1XkqY3HK+9+vmmgXlDAhwnzphUEOUPsBw8wKBgQDbtjWjEvtTw5d7Ke9R\nz4GWZ2mVF1phNo9BeGsVb/3eOhkmKzMxBosES5b7Ao+ZrLPrZw8E+gv284fgpF0j\nWMX+QDqES5DUbQCyfrgvcjyQQL71HUQbw1sOEuZO9qAUBTPmjegAOB7EdoEjtzPE\n1Z943YKEhaB4gv6O8OJacFOfxwKBgQDZSn3xM4gyCJPq2mPhSlY8mne+mIPvxCax\n7LH71XKWMpy3Sl6NgrsjdaqMiKAaAyWkOLhs1XSXOk8MZT3y4lrQz8YTc0Lw06bl\nhUstiAYUJoXh44el6qVFzEmA66pF8P7XEzK8emP2kCvdSxAO3l8dQRzdkPSoSZIu\njkdOP8lsUwKBgApgPYI5CEN5bjLz1QiBCzamJZdT5gHHSNansC7v/gY7qipiSeWb\n0H7gbv3lrhBs1oZcdJogkOYVtCoIuRlNPPR35guPYgSWLT1AvMQI2hFZ7Wq3+hpx\njGBKxjOedAreAAh4VSeFfvZ6PjkIktpN2F0l4N8PTHfEf+8SMy5gNaLLAoGAK4eh\nzVU+fo97WnwfsD1dI0zqmjMhk0HfYpuBWGr9RpujC5EJeh3rcYIcBYVFVZC11L1M\nLPliHv2eYmRR0buI5/YHv1PC4E32TFq0oc1zMkw5W/Rh81obe+0d+Ia9mL9bvihp\nbJq0NevR7cYg1Gm18j1eFAD7Ek+SymLUZBehOWMCgYEAgn4D0jCxKkmTtfAEIJtV\nddUhyA50j0VmtJDgwcJyZpVaphvuD3xAH8N+pc87ozCk+rNnJDEVlFU0K6qWvXhl\nF+XyhX2NnuucECxQ12PZOIsTD/5NsNlzIsN7uNJAVMAluhg40UrAokwzilcrvB3p\nunt+kYVOIlu//xDya8S0TgI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "si-virus@sivirus-vaxy.iam.gserviceaccount.com",
+  "client_id": "116020001827352873458",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/si-virus%40sivirus-vaxy.iam.gserviceaccount.com"
+}

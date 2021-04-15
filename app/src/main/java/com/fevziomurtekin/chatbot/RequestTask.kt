@@ -25,12 +25,10 @@ class RequestTask : AsyncTask<Void, Void, DetectIntentResponse> {
                 .setSession(session.toString())
                 .setQueryInput(queryInput)
                 .build()
-            return sessionsClient?.detectIntent(detectIntentRequest)
+           return sessionsClient?.detectIntent(detectIntentRequest)
         } catch (e: Exception) {
             e.printStackTrace()
         }
-
-
         return null
     }
 
