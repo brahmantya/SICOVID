@@ -9,8 +9,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|center_vertical"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="4dp"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="64dp"
             android:background="@drawable/user_bg"
@@ -21,8 +19,7 @@
                 android:id="@+id/chatMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:padding="7.5dp"
+                android:padding="10dp"
                 android:text="abcdefgh"
                 android:textColor="#000000"
                 android:textSize="15sp" />
@@ -30,8 +27,7 @@
         <FrameLayout
                 android:id="@+id/container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp">
+                android:layout_height="wrap_content">
 
         </FrameLayout>
 

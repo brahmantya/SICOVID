@@ -12,7 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="@drawable/bubble_bg"
+            android:background="#EAECF2"
             android:gravity="bottom"
             android:paddingBottom="9dp"
             android:paddingEnd="8dp"
@@ -78,7 +78,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/scroll_chat"
                 app:layout_constraintVertical_bias="0.0" />
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edittext"
                 android:layout_width="288dp"
                 android:layout_height="44dp"
@@ -87,7 +87,8 @@
                 android:inputType="text"
                 android:textColor="@color/text_color"
                 android:hint="@string/edit_hint"
-                android:background="@drawable/chat_bg"
+                android:background="@drawable/rounded_edittext"
+
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:textSize="18sp"
