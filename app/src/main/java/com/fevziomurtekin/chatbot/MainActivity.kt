@@ -21,6 +21,7 @@
     import com.fevziomurtekin.chatbot.databinding.AppBarMainBinding
     import com.fevziomurtekin.chatbot.ui.aboutapp.AboutAppActivity
     import com.fevziomurtekin.chatbot.ui.aboutcreator.AboutCreatorActivity
+    import com.fevziomurtekin.chatbot.ui.customquestion.CustomQuestion
     import com.fevziomurtekin.chatbot.ui.reference.ReferenceActivity
     import com.fevziomurtekin.chatbot.ui.reference.ReferenceFragment
     import com.google.android.material.navigation.NavigationView
@@ -39,12 +40,10 @@
 
     class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
 
-        private val uuid = UUID.randomUUID().toString()
 
-        private var client: SessionsClient? = null
-        private var session: SessionName? = null
 
         private var asistan_voice: TextToSpeech? = null
+        lateinit var projectID : String
 
         lateinit var appBarMainBinding: AppBarMainBinding
         lateinit var mainActivityMainBinding: ActivityMainBinding
@@ -52,6 +51,13 @@
         lateinit var drawerLayout: DrawerLayout
         lateinit var navView: NavigationView
         lateinit var toggle : ActionBarDrawerToggle
+
+        companion object {
+         val uuid = UUID.randomUUID().toString()
+
+         var client: SessionsClient? = null
+         var session: SessionName? = null
+        }
 
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
@@ -133,6 +139,11 @@
                     val intentAboutCreator = Intent(this, AboutCreatorActivity::class.java)
                     startActivity(intentAboutCreator)
                 }
+                R.id.nav_customquestion -> {
+                    val intentCustomQuestion = Intent(this, CustomQuestion::class.java)
+                    intentCustomQuestion.putExtra("projectId", this.projectID)
+                    startActivity(intentCustomQuestion)
+                }
             }
             drawerLayout.closeDrawer(GravityCompat.START)
             return true
@@ -158,7 +169,7 @@
                 val stream = resources.openRawResource(R.raw.sivirus)
                 val credentials = GoogleCredentials.fromStream(stream)
                 val projectId = (credentials as ServiceAccountCredentials).projectId
-
+                this.projectID = projectId
                 val settingsBuilder = SessionsSettings.newBuilder()
                 val sessionsSettings =
                     settingsBuilder.setCredentialsProvider(
@@ -227,7 +238,7 @@
             layout.isFocusableInTouchMode = true
             linear_chat.addView(layout)
             val tv = layout.findViewById<TextView>(R.id.chatMsg)
-            tv.setText(message)
+            tv.text = message
             Util.hideKeyboard(this)
             layout.requestFocus()
             edittext.requestFocus() // change focus back to edit text to continue typing
@@ -277,10 +288,6 @@
                     }
                 }
             }
-        }
-
-        override fun onPause() {
-            super.onPause()
         }
 
         override fun onDestroy() {

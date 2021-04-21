@@ -21,6 +21,7 @@ class RequestTask : AsyncTask<Void, Void, DetectIntentResponse> {
 
     override fun doInBackground(vararg params: Void?): DetectIntentResponse? {
         try {
+            
             val detectIntentRequest = DetectIntentRequest.newBuilder()
                 .setSession(session.toString())
                 .setQueryInput(queryInput)
