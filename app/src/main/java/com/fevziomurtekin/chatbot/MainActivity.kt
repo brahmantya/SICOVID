@@ -128,6 +128,7 @@
                 R.id.nav_home1 -> {
                     val intentReference = Intent(this, ReferenceActivity::class.java)
                     startActivity(intentReference)
+
                 }
 
                 R.id.nav_photos -> {

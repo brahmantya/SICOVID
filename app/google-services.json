@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749907900413",
+    "project_id": "sivirus-vaxy",
+    "storage_bucket": "sivirus-vaxy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749907900413:android:021c4f4638b397312c0b94",
+        "android_client_info": {
+          "package_name": "com.fevziomurtekin.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749907900413-7pivb75hqm0mhpljo63gir4dvg2sicdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADLhEJkK-IMrLLdtTgDmHF8jNLV_6Xzmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749907900413-7pivb75hqm0mhpljo63gir4dvg2sicdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

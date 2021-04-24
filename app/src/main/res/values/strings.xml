@@ -19,4 +19,13 @@
     <string name="reference5">Virus Corona Bermutasi? Ini 5 Hal yang Perlu Diketahui \n <a href="https://health.detik.com/berita-detikhealth/d-5053973/virus-corona-bermutasi-ini-5-hal-yang-perlu-diketahui">https://health.detik.com/berita-detikhealth/d-5053973/virus-corona-bermutasi-ini-5-hal-yang-perlu-diketahui</a></string>
     <string name="aboutapp">SI COVID adalah chatbot yang membahas mengenai covid-19 dari gambaran umum hingga informasi yang lebih detail.</string>
     <string name="aboutcreator"> Aplikasi ini dibuat oleh Brahmantya Adi S (18082010021) dan Fatihaeny Nabilah K I (18082010033) mahasiswa UPN VETERAN JATIM, Fakultas Ilmu Komputer, Jurusan Sistem Informasi.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
