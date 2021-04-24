@@ -30,6 +30,7 @@ class CustomQuestion : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mAuth = FirebaseAuth.getInstance()
+        setTitle("Pertanyaan Kustom")
         var currentUser = mAuth.currentUser
         if (checkUser()) {
             var loginIntent = android.content.Intent(this, LoginActivity::class.java)

@@ -11,6 +11,7 @@ class AboutAppActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_app)
+        setTitle("About App")
         actionBar = supportActionBar!!
         actionBar.setDisplayHomeAsUpEnabled(true)
     }

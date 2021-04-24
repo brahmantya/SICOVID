@@ -15,6 +15,7 @@ class ReferenceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reference)
+        setTitle("Reference")
         actionBar = supportActionBar!!
         actionBar.setDisplayHomeAsUpEnabled(true)
         setupHyperlink()

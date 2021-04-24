@@ -12,6 +12,7 @@ class AboutCreatorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_creator)
+        setTitle("About Creator")
         actionBar = supportActionBar!!
         actionBar.setDisplayHomeAsUpEnabled(true)
     }
