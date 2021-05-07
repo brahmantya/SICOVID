@@ -8,9 +8,9 @@
         tools:context=".SplashActivity">
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/splash"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sicovid"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
